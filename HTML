@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+  </style>
+</head>
+
+<body>
+  <div id="game-container">
+    <h1 id="game-title">GPT-4 Snake</h1>
+    <h2 id="high-score">High Score: 0</h2>
+    <h3 id="best-high-score">Best Score: 0</h3>
+    <div id="canvas-container">
+      <canvas id="game-board" width="384" height="268"></canvas>
+    </div>
+  </div>
+  <audio id="eat-sound" src="/eat.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+
+</html>
